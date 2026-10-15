@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>shaju | Python Developer</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="#home" class="logo mono">&lt;shaju&gt;</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="hero" id="home">
+      <p class="tag mono">&gt; <span id="typed">Python Developer</span><span class="cursor">_</span></p>
+      <h1>shaju,<br>a <span>Python</span> Developer.</h1>
+      <p>I build clean backends, APIs and automation tools. I enjoy turning messy problems into simple, reliable code.</p>
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn ghost">Contact Me</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <div class="about">
+        <div>
+          <p>I'm a Python developer with experience building web applications, data pipelines and scripts that save people time. I care about readable code, tests and good documentation.</p>
+          <p>When I'm not coding, I'm learning something new or contributing to open source.</p>
+          <div class="skills" style="margin-top:20px">
+            <span>Python</span><span>Django</span><span>Flask</span><span>FastAPI</span>
+            <span>PostgreSQL</span><span>Pandas</span><span>Docker</span><span>Git</span>
+          </div>
+        </div>
+        <pre class="code mono"><span class="k">class</span> Developer:
+    name = <span class="s">"Your Name"</span>
+    language = <span class="s">"Python"</span>
+
+    <span class="k">def</span> build(self):
+        <span class="k">return</span> <span class="s">"clean code"</span></pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Task Manager API</h3>
+          <p>REST API with authentication, CRUD endpoints and automated tests.</p>
+          <span class="stack mono">FastAPI · PostgreSQL · Docker</span>
+        </div>
+        <div class="card">
+          <h3>Data Dashboard</h3>
+          <p>Cleans raw CSV data and shows key metrics with interactive charts.</p>
+          <span class="stack mono">Pandas · Plotly · Flask</span>
+        </div>
+        <div class="card">
+          <h3>Web Scraper Bot</h3>
+          <p>Collects and stores product prices daily and sends email alerts.</p>
+          <span class="stack mono">Requests · BeautifulSoup · SQLite</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>Have a project or an opportunity in mind? I'd love to hear from you.</p>
+      <a href="mailto:you@example.com" class="btn primary">Say Hello</a>
+      <a href="https://github.com/yourname" class="btn ghost">GitHub</a>
+      <button type="button" class="btn ghost" id="copy">Copy Email</button>
+    </div>
+  </section>
+</main>
+
+<footer>&copy; <span id="year">2026</span> Your Name. Built with plain HTML and CSS.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
